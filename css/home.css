@@ -1,0 +1,53 @@
+*,::after,::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+}
+
+body{
+    background-color:  #24353F ;
+}
+
+.nav{
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.83);
+    padding: 8px 0;  
+}
+
+.nav p{
+    font-size: 1.37rem;
+    text-transform: uppercase;
+    color: white;
+    margin-block: auto;
+    margin-right: 5rem;
+   
+}
+
+
+.nav button{
+    padding: 9px 7px;
+    margin-left: 80px;
+    color:rgb(172, 171, 171) ;
+    font-size: 1.125rem;
+}
+
+button:focus{
+    box-shadow:  0 0 0 3px #ffc1079e;
+}
+
+.info{
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.83);
+    width: 75%;
+}
+
+.container{
+    height:100vh;
+}
+
+.info h1{
+    color:  #17A2B8;
+}
+
+#name{
+    text-transform: capitalize;
+}

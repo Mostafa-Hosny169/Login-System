@@ -1,0 +1,137 @@
+*,::after,::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+    /* 'Titillium Web' */
+}
+
+body{
+    background-color:  #24353F ;
+}
+
+h1{
+    color: #17A2B8;
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 1.25rem;
+}
+
+input{
+    display: block;
+    background: transparent;
+    border: 1px solid #CED4DA;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 1.25rem;
+    padding: 0.5rem 0.625rem;
+    font-size: 1.1rem;
+    outline: none;
+    color: white;
+}
+
+
+
+::placeholder{
+    color: rgb(204, 204, 204);
+}
+
+
+  
+
+input:focus{
+    border: 1px solid #80BDFF;
+
+}
+
+button{
+    background-color: transparent;
+    color: #17A2B8;
+    width: 100%;
+    border: 1px solid #17A2B8;
+    border-radius: 5px;
+    padding: 7px 0;
+    margin-top: 0.9375rem;
+    margin-bottom: .9375rem;
+    font-size: 1.125rem;
+    font-family:  sans-serif;
+}
+
+button:focus{
+    box-shadow:  0 0 0 3px #17a3b87e;
+}
+
+button:hover {
+    background-color: #17A2B8;
+    color: white;
+}
+
+.signup{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.form-box-signup{
+    padding: 3.125rem;
+    background-color:#24353F;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.83);
+    width: 50%;
+    text-align: center;
+}
+
+p,p a{
+    color: white;
+    font-weight: 500;
+    font-size: 1.1875rem;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration:underline;
+
+}
+
+
+#massageName ,#massageEmail,#massagePassword,#inputReq,#sucsses,#exist{
+    border: 1PX SOLID red;
+    background-color: rgba(255, 0, 0, 0.201);
+    color: rgb(224, 110, 110);
+    width: 50%;
+    margin-inline: auto;
+    font-size: .8125rem;
+    font-style: italic;
+}
+#inputReq{
+    font-size: 1rem;
+}
+
+#exist{
+    font-size: 1rem;
+}
+
+#sucsses{
+    border: 1PX SOLID green;
+    background-color: rgb(8, 78, 8);
+    color: forestgreen;
+    font-size: 1.125rem;
+}
+
+
+
+
+@media (max-width: 767.98px) {
+    html{
+        font-size: 14px;
+    }
+    h1{
+        font-size: 2.3rem;
+    }
+    input{
+        font-size: 0.9rem;
+    }
+    .form-box-signup{
+        width: 75%;
+    }
+
+}

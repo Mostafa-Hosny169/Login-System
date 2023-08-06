@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+
+
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/signup.css">
+</head>
+<body>
+    <section class="signup">
+        <div class="form-box-signup">
+            <h1>Smart Login System</h1>
+            <input type="text" placeholder="Enter your name" id="name" >
+            <input type="email" placeholder="Enter your email" id="email">
+            <input type="password" placeholder="Enter your password" id="password">
+            <p id="massageName" class="d-none"> Invalid Name Please Enter Name Has min 3 Charcters And Numbers If You Want (Max 5).  </p>
+            <p id="massageEmail" class="d-none"> Email Is Not Valid Please Check You Write @ And Your Email And Dont Write Any Special Charcter expect _</p>
+            <p id="massagePassword" class="d-none"> Your Password Must Be At Least 8 Characters Long And Numbers And Special Character. Please Try Another. </p>
+            <p id="inputReq" class="d-none">All Inputs Is Reqired</p>
+            <p id="sucsses" class="d-none">Sucsses</p>
+            <p id="exist" class="d-none">Email Already Exist</p>
+
+            <button id="signup">Sign Up</button>
+            <p>You have an account? <a href="../index.html"> Sign In</a></p>
+        </div>
+    </section>
+    
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/signup.js"></script>
+</body>
+</html>
+
+
